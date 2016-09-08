@@ -1,0 +1,13 @@
+<title>Memory Game</title>
+
+<div class="container">
+  <h4>Memory Match</h4>
+
+  <div class="row">
+   <% @numbers.each do |num| %>
+    <div class="col s3 card black-bg" id=<%=num%> >
+      <%= num %>
+    </div>
+   <% end %>
+  </div>
+</div>  
